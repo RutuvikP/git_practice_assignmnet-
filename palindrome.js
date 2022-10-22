@@ -14,7 +14,7 @@ let N=str.length;
        
     }
     
-    if(sum !== bag){
+    if(sum == bag){
         console.log("Yes");
     }else{
         console.log("No");

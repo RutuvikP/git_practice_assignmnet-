@@ -5,7 +5,7 @@ let count=0;
             count++;
         }
     }
-    if (count!==2){
+    if (count==2){
         console.log("Yes");
     } else if(count>2){
         console.log("No");
